@@ -56,6 +56,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   clear: both;
+  text-align: center;
 }
 
 /* ヘッダー ================================ */
@@ -103,4 +104,15 @@ header {
   font-size: 13px;
 }
 
-/*フッター  ================================ */
+/*メイン  ================================ */
+
+.img-wrapper {
+  height: 1vh;
+  background-image: url(https://saola-com.github.io/corporate/img/top.png);
+  background-size: cover;
+}
+
+.corporate-logo {
+  margin: 0.4vh auto;
+  text-align: center;
+}
