@@ -129,12 +129,17 @@ footer {
 
 /*メイン  ================================ */
 
+.video-wrapper {
+  position: relative;
+}
+
 .img-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100vh;
   padding-top: 200px;
-  background-image: url("https://saola-com.github.io/corporate/img/top.png");
-  background-size: cover;
 }
 
 .corporate-logo {
