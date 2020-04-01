@@ -73,7 +73,7 @@ body {
 .img-wrapper {
   width: 100%;
   height: 100vh;
-  padding-top: 300px;
+  padding-top: 100px;
   background-image: url("https://saola-com.github.io/corporate/img/top.png");
   background-size: cover;
 }
@@ -86,13 +86,19 @@ body {
   width: 80%
 }
 
+.corporate-message {
+  margin-bottom: 30px;
+}
+
 .corporate-message img {
   width: 80px;
+  margin-bottom: 30px;
 }
 
 .corporate-message h2 {
   text-align: left;
   font-size: 20px;
+  line-height: 25px;
 }
 
 .heading {
@@ -100,7 +106,7 @@ body {
   height: 100px;
   margin: 30px auto;
   padding-bottom: 10px;
-  padding-left: 100px;
+  padding-left: 350px;
   text-align: center;
   border-bottom: 1px solid rgba(254, 86, 86, 0.3);
 }
@@ -119,24 +125,22 @@ body {
 
 .mission-wrapper h2 {
   font-size: 40px;
+  line-height: 45px;
+  margin-bottom: 50px;
 }
 
 .mission-wrapper p {
   font-size: 16px;
   color: rgba(45, 49, 51, 0.8);
+  line-height: 25px;
 }
 
-.service {
-  width: 100%;
-  height: 100px;
-  margin: 30px auto;
-  padding-bottom: 10px;
-  padding-left: 100px;
-  text-align: center;
+.heading.service {
+  border-bottom-style: none;
 }
 
 .arrow {
-  width: 1000%;
+  width: 100%;
 }
 
 .service-flow {
@@ -181,17 +185,29 @@ body {
 }
 
 .table {
-  text-align: left;
+  margin: 0 auto;
 }
 
 .table p {
   float: left;
-  width: 25%;
+  line-height: 25px;
   font-size: 16px;
   font-weight: bold;
 }
 
+.entry {
+  width: 150px;
+  text-align: left;
+}
+
 .line {
-  height: 50%;
+  width: 100px;
+  height: 13px;
+  margin: 0 30px;
   border-bottom: solid 1px rgba(0, 0, 0, 0.8);
+}
+
+.answer {
+  width: 450px;
+  text-align: left;
 }
