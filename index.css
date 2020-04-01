@@ -56,7 +56,6 @@ body {
 }
 
 .container {
-  max-width: 800px;
   width: 80%;
   margin: 60px auto;
   padding-left: 15px;
@@ -65,12 +64,16 @@ body {
   text-align: center;
 }
 
+.clear {
+  clear:left;
+}
+
 /*メイン  ================================ */
 
 .img-wrapper {
   width: 100%;
   height: 100vh;
-  padding: 300px;
+  padding-top: 300px;
   background-image: url("https://saola-com.github.io/corporate/img/top.png");
   background-size: cover;
 }
@@ -97,6 +100,7 @@ body {
   height: 100px;
   margin: 30px auto;
   padding-bottom: 10px;
+  padding-left: 100px;
   text-align: center;
   border-bottom: 1px solid rgba(254, 86, 86, 0.3);
 }
@@ -123,11 +127,16 @@ body {
 }
 
 .service {
-  border-bottom-style: none;
+  width: 100%;
+  height: 100px;
+  margin: 30px auto;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  text-align: center;
 }
 
 .arrow {
-  width: 80%;
+  width: 1000%;
 }
 
 .service-flow {
@@ -138,6 +147,10 @@ body {
   width: 25%;
   float: left;
   padding: 5px;
+}
+
+.flow img {
+  height: 100px;
 }
 
 .member {
@@ -157,7 +170,7 @@ body {
   margin-bottom: 20px;
 }
 
-.content {
+.career {
   width: 90%;
   margin: 0 auto;
   text-align: left;
@@ -172,6 +185,7 @@ body {
 }
 
 .table p {
+  float: left;
   width: 25%;
   font-size: 16px;
   font-weight: bold;
