@@ -107,13 +107,17 @@ header {
 /*メイン  ================================ */
 
 .img-wrapper {
+  width: 100%;
   height: 100vh;
-  background-image: url(/img/top.png);
+  background-image: url("https://saola-com.github.io/corporate/img/top.png");
   background-size: cover;
 }
 
 .corporate-logo {
-  margin: 40vh auto;
+  margin: 30vh auto;
   text-align: center;
+}
+
+.corporate-logo img {
   width: 80%
 }
