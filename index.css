@@ -44,7 +44,6 @@ body {
 
 .main {
   position: absolute;
-  top: 64px;
   width: 100%;
   height: auto;
   min-height: 100%;
@@ -52,56 +51,12 @@ body {
 
 .container {
   max-width: 800px;
+  width: 80%;
   margin: 60px auto;
   padding-left: 15px;
   padding-right: 15px;
   clear: both;
   text-align: center;
-}
-
-/* ヘッダー ================================ */
-header {
-  height: 64px;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-}
-
-.header-logo {
-  float: left;
-  padding-left: 20px;
-}
-
-.header-logo a{
-}
-
-.header-menus {
-  float: right;
-  padding-right: 20px;
-}
-
-.header-menus li {
-  float: left;
-  line-height: 64px;
-  font-size: 13px;
-  color: white;
-  padding-left: 15px;
-}
-
-.header-menus a {
-  float: left;
-  font-size: 13px;
-  color: white;
-}
-
-
-.header-menus input[type="submit"] {
-  padding: 0 20px;
-  float: left;
-  line-height: 64px;
-  color: white;
-  margin: 0;
-  font-size: 13px;
 }
 
 /*メイン  ================================ */
@@ -120,4 +75,13 @@ header {
 
 .corporate-logo img {
   width: 80%
+}
+
+.corporate-message img {
+  width: 100px;
+}
+
+.corporate-message h2 {
+  text-align: left;
+  font-size: 24px;
 }
