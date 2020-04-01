@@ -107,12 +107,13 @@ header {
 /*メイン  ================================ */
 
 .img-wrapper {
-  height: 1vh;
+  height: 100vh;
   background-image: url(/img/top.png);
   background-size: cover;
 }
 
 .corporate-logo {
-  margin: 0.4vh auto;
+  margin: 40vh auto;
   text-align: center;
+  width: 80%
 }
