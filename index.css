@@ -70,12 +70,12 @@ body {
 .img-wrapper {
   width: 100%;
   height: 100vh;
+  padding: 300px;
   background-image: url("https://saola-com.github.io/corporate/img/top.png");
   background-size: cover;
 }
 
 .corporate-logo {
-  margin: 30vh auto;
   text-align: center;
 }
 
@@ -93,10 +93,10 @@ body {
 }
 
 .heading {
-  width: 25%;
+  width: 100%;
   height: 100px;
   margin: 30px auto;
-  padding: 10px;
+  padding-bottom: 10px;
   text-align: center;
   border-bottom: 1px solid rgba(254, 86, 86, 0.3);
 }
