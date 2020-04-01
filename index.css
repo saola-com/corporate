@@ -151,6 +151,7 @@ footer {
 
 .corporate-logo {
   text-align: center;
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
 }
 
 .corporate-logo img {
@@ -165,6 +166,7 @@ footer {
 .corporate-message img {
   width: 80px;
   margin-bottom: 50px;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
 .corporate-message h2 {
@@ -203,6 +205,7 @@ footer {
   float: left;
   margin-right: 20px;
   margin-bottom: 50px;
+  filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.6));
 }
 
 .heading h2 {
@@ -277,6 +280,8 @@ footer {
 .member img {
   width: 80%;
   border-radius: 50%;
+  filter: drop-shadow(0px 5px 5px rgba(0,0,0,0.3));
+
 }
 
 .name {
