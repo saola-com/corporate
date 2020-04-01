@@ -68,12 +68,39 @@ body {
   clear:left;
 }
 
+/*フッター  ================================ */
+
+footer {
+  height: 300px;
+  padding: 30px;
+  background-image: url(https://saola-com.github.io/corporate/img/footer.png)
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-left img {
+  width: 150px;
+}
+
+.footer-right {
+    float: right;
+}
+
+.footer-right li {
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
 /*メイン  ================================ */
 
 .img-wrapper {
   width: 100%;
   height: 100vh;
-  padding-top: 100px;
+  padding-top: 200px;
   background-image: url("https://saola-com.github.io/corporate/img/top.png");
   background-size: cover;
 }
@@ -83,38 +110,52 @@ body {
 }
 
 .corporate-logo img {
-  width: 80%
+  width: 65%
 }
 
 .corporate-message {
-  margin-bottom: 30px;
+  margin-top: 90px;
+  margin-bottom: 190px;
 }
 
 .corporate-message img {
   width: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .corporate-message h2 {
   text-align: left;
   font-size: 20px;
-  line-height: 25px;
+  line-height: 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .heading {
   width: 100%;
   height: 100px;
-  margin: 30px auto;
+  margin: 0px auto;
   padding-bottom: 10px;
-  padding-left: 350px;
   text-align: center;
   border-bottom: 1px solid rgba(254, 86, 86, 0.3);
+}
+
+.mission-wrapper {
+  margin-bottom: 170px;
+}
+
+.heading.mission {
+  padding-left: 380px;
+  padding-bottom: 60px;
+  margin-bottom: 40px;
+  height: 120px;
 }
 
 .heading img {
   height: 80px;
   float: left;
   margin-right: 20px;
+  margin-bottom: 50px;
 }
 
 .heading h2 {
@@ -123,24 +164,30 @@ body {
   float: left;
 }
 
-.mission-wrapper h2 {
+.catch-copy {
   font-size: 40px;
-  line-height: 45px;
-  margin-bottom: 50px;
+  line-height: 60px;
+  margin-bottom: 30px;
 }
 
-.mission-wrapper p {
+.body-copy {
   font-size: 16px;
   color: rgba(45, 49, 51, 0.8);
-  line-height: 25px;
+  line-height: 40px;
+}
+
+.service-wrapper {
+  margin-bottom: 120px;
 }
 
 .heading.service {
   border-bottom-style: none;
+  padding-left: 380px;
 }
 
 .arrow {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .service-flow {
@@ -155,6 +202,19 @@ body {
 
 .flow img {
   height: 100px;
+}
+
+.content {
+  line-height: 30px;
+}
+
+.member-wrapper {
+  margin-bottom: 100px;
+}
+
+.heading.team {
+  padding-left: 420px;
+  margin-bottom: 50px;
 }
 
 .member {
@@ -174,14 +234,23 @@ body {
   margin-bottom: 20px;
 }
 
+.info-wrapper {
+  margin-bottom: 250px;
+}
+
 .career {
   width: 90%;
   margin: 0 auto;
   text-align: left;
 }
 
+.heading.about {
+  padding-left: 370px;
+  margin-bottom: 50px;
+}
+
 .info {
-  margin: 0 auto;
+  margin-left: 200px;
 }
 
 .table {
@@ -190,7 +259,7 @@ body {
 
 .table p {
   float: left;
-  line-height: 25px;
+  line-height: 40px;
   font-size: 16px;
   font-weight: bold;
 }
@@ -202,7 +271,7 @@ body {
 
 .line {
   width: 100px;
-  height: 13px;
+  height: 20px;
   margin: 0 30px;
   border-bottom: solid 1px rgba(0, 0, 0, 0.8);
 }
