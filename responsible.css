@@ -106,6 +106,7 @@
 
     .phone-body-copy {
       display: block;
+      margin: 0 auto;
       width: 80%;
       font-size: 14px;
       font-weight: bold;
@@ -149,22 +150,27 @@
 
     /* info-wrapper */
 
+    .table p {
+      font-size: 12px;
+    }
+
     .info {
       margin: 0;
       width: 100%;
     }
 
     .entry {
-      width: 25%;
+      width: 22%;
     }
 
     .line {
-      width: 10%;
+      width: 6%;
       margin: 0;
     }
 
     .answer {
-      width: 65%;
+      width: 72%;
+      padding-left: 15px;
     }
 
     /* member-wrapper */
@@ -180,6 +186,14 @@
 
     .position {
       margin-top: 15px;
+    }
+
+    .career {
+      width: 80%;
+      font-size: 14px;
+      line-height: 30px;
+      font-weight: bold;
+      color: rgba(45, 49, 51, 0.8);
     }
 
     /* phone-menu-iconの表示 */
