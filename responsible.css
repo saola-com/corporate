@@ -4,9 +4,9 @@
 
     /* phone-menu-iconの表示 */
 
-      .menu {
-        display: none;
-      }
+    header {
+      display: none;
+    }
 
     .phone-menu {
       display: block;
