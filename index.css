@@ -226,6 +226,10 @@ footer {
   line-height: 40px;
 }
 
+.phone-body-copy {
+  display: none;
+}
+
 /* Service-wrapper ================================ */
 
 .service-wrapper {

@@ -4,17 +4,25 @@
 
     /* 共通設定 */
 
+    .body {
+      width: 100%;
+    }
+
+    h2, p {
+      color: rgba(45, 49, 51, 0.8)
+    }
+
     .container {
       width: 100%;
     }
 
     .heading {
-      margin: 0;
-      padding: 0;
-      height: 90px;
+      margin: 30px 0px;
+      padding-bottom: 30px;
+      height: 120px;
     }
 
-    .haeding img {
+    .heading img {
       height: 60px;
     }
 
@@ -22,11 +30,33 @@
       line-height: 30px;
     }
 
+    /* footer */
+
+    footer {
+      margin-bottom: 80px;
+      padding: none;
+    }
+
+    .footer-left {
+      padding-top: 150px;
+      float: none;
+      text-align: center;
+    }
+
+    .footer-left img {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+
+    .footer-right {
+      display: none;
+    }
+
     /* video-wrapper */
 
     .top-video {
       width: 100%;
-      height: 50vh;
+      height: 100%;
     }
 
     .img-wrapper {
@@ -34,12 +64,16 @@
       top: 0px;
       left: 0px;
       width: 100%;
-      height: 50vh;
-      padding-top: 200px;
+      height: 100%;
+      padding-top: 70px;
       z-index: 1;
     }
 
     /* corporate-message */
+
+    .corporate-message {
+      margin-bottom: 60px;
+    }
 
     .corporate-message img {
       width: 60px;
@@ -49,10 +83,12 @@
 
     .corporate-message h2 {
       text-align: left;
-      font-size: 16px;
-      line-height: 20px;
-      width: 100%;
+      font-size: 14px;
+      line-height: 35px;
+      width: 80%;
       margin: 0 auto;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.5);
     }
 
 
@@ -65,10 +101,16 @@
     }
 
     .body-copy {
-      font-size: 16px;
+      display: none;
+    }
+
+    .phone-body-copy {
+      display: block;
+      width: 80%;
+      font-size: 14px;
       font-weight: bold;
       color: rgba(45, 49, 51, 0.8);
-      line-height: 30px;
+      line-height: 35px;
       text-align: left;
     }
 
@@ -76,6 +118,7 @@
 
     .heading.service {
       border-bottom: 1px solid rgba(254, 86, 86, 0.5);
+      margin: 30px 0;
     }
 
     .arrow {
@@ -84,6 +127,24 @@
 
     .flow {
       width: 100%;
+      margin: 10px 0;
+      background-color: rgba(0, 0, 0, 0.02);
+      padding: 30px 0;
+    }
+
+    .content {
+      color: rgba(45, 49, 51, 0.8);
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 35px;
+    }
+
+    .self-learning {
+      margin: 15px 0;
+    }
+
+    .assessment{
+      margin: 15px 0;
     }
 
     /* info-wrapper */
@@ -98,18 +159,34 @@
     }
 
     .line {
-      width: 25%;
+      width: 10%;
+      margin: 0;
     }
 
+    .answer {
+      width: 65%;
+    }
 
     /* member-wrapper */
 
     .member {
       width: 100%;
+      margin-bottom: 70px;
     }
 
+    .member img {
+      border-radius: 10px;
+    }
 
+    .position {
+      margin-top: 15px;
+    }
 
+    /* phone-menu-iconの表示 */
+
+    .to-top img {
+      height: 60px;
+    }
 
     /* phone-menu-iconの表示 */
 
@@ -119,8 +196,9 @@
 
     .phone-menu {
       display: block;
-      height: 64px;
+      height: 80px;
       width: 100%;
+      padding-top: 5px;
       background-color: white;
       position: fixed;
       bottom: 0px;
@@ -143,8 +221,5 @@
       margin-bottom: 4px;
     }
 
-    footer {
-      margin-bottom: 64px;
-    }
 
 }
