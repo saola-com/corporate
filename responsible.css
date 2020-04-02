@@ -1,0 +1,46 @@
+/* スマホ向け================================== */
+
+@media (max-width: 750px) {
+
+    /* phone-menu-iconの表示 */
+
+      .menu {
+        display: none;
+      }
+
+    .phone-menu {
+      display: block;
+      height: 64px;
+      width: 100%;
+      background-color: white;
+      z-index: 1;
+    }
+
+    .phone-menu-icon {
+      width: 25%;
+      padding: 5px;
+      text-align: center;
+      float: left;
+    }
+
+    .phone-menu-icon img {
+      height:30px;
+    }
+
+    .phone-menu-icon p {
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 64px;
+    }
+
+}
+
+/* 向け================================== */
+
+@media (max-width: px) {
+
+}
