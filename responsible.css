@@ -35,6 +35,7 @@
     footer {
       margin-bottom: 80px;
       padding: none;
+      background-image: url(https://saola-com.github.io/corporate/img/footer_phone.png); 
     }
 
     .footer-left {
@@ -44,7 +45,7 @@
     }
 
     .footer-left img {
-      width: 50%;
+      width: 70%;
       margin-bottom: 30px;
     }
 
@@ -93,6 +94,10 @@
 
 
     /* mission-wrapper */
+
+    .mission-wrapper {
+      background-image: url(https://saola-com.github.io/corporate/img/bridge_white_phone.png);
+    }
 
     .catch-copy {
       font-size: 20px;
@@ -231,9 +236,8 @@
     }
 
     .phone-menu-icon p {
-      font-size: 20px;
+      font-size: 10px;
       margin-bottom: 4px;
     }
-
 
 }
