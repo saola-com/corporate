@@ -35,7 +35,7 @@
     footer {
       margin-bottom: 80px;
       padding: none;
-      background-image: url(https://saola-com.github.io/corporate/img/footer_phone.png); 
+      background-image: url(https://saola-com.github.io/corporate/img/footer_phone.png);
     }
 
     .footer-left {
@@ -134,7 +134,7 @@
     .flow {
       width: 100%;
       margin: 10px 0;
-      background-color: rgba(0, 0, 0, 0.02);
+      background-color: rgba(0, 0, 0, 0.05);
       padding: 30px 0;
     }
 
