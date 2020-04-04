@@ -92,6 +92,7 @@ header {
 .page-title {
   border-left: 5px solid rgba(254, 86, 86, 0.8);
   font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .company-name {
@@ -100,6 +101,7 @@ header {
 }
 
 .time {
+  padding: 5px 10px;
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 10%;
   text-align: right;
@@ -112,6 +114,7 @@ header {
   font-size: 16px;
   background-color: rgba(0, 0, 0, 0.05);
   margin: 60px 0;
+  padding: 20px;
 }
 
 .heading {
@@ -120,7 +123,7 @@ header {
   margin-bottom: 30px;
 }
 
-.content img {
+.image {
   height: 100px;
 }
 
