@@ -47,9 +47,7 @@ body {
 }
 
 main {
-  position: absolute;
-  top: 64px;
-  left:0px;
+  margin-top: 64px;
   width: 100%;
   height: auto;
   min-height: 100%;
@@ -128,8 +126,6 @@ header {
 /*フッター  ================================ */
 
 footer {
-  position: absolute;
-  bottom: 0px;
   height: 400px;
   padding: 100px;
   background-image: url(https://saola-com.github.io/corporate/img/footer.png);
