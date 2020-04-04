@@ -118,11 +118,11 @@ header {
 .heading {
   font-size: 20px;
   border-bottom: 1px solid rgba(254, 86, 86, 0.8);
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .content img {
-  height: 200px;
+  height: 100px;
 }
 
 /*フッター  ================================ */
@@ -149,4 +149,8 @@ footer {
   margin-right: auto;
   margin-bottom: 70px;
   text-align: center;
+}
+
+.to-top img {
+  height: 80px;
 }
