@@ -48,7 +48,7 @@ body {
 
 .main {
   position: absolute;
-  top:0px;
+  top: 64px;
   left:0px;
   width: 100%;
   height: auto;
@@ -61,11 +61,68 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   clear: both;
-  text-align: center;
+  text-align: left;
 }
 
 .clear {
-  clear:left;
+  clear:both;
+}
+
+/*ヘッダー  ================================ */
+
+header {
+  height: 64px;
+  width: 100%;
+  border-bottom: 5px solid rgba(254, 86, 86, 0.8);
+  position: fixed;
+  z-index: 1;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-logo {
+  text-align: center;
+  height: 50px;
+  padding: 7px 30px;
+}
+
+/* top-wrapper ================================ */
+
+.page-title {
+  border-left: 5px solid rgba(254, 86, 86, 0.8);
+  font-size: 20px;
+}
+
+.company-name {
+  float: left;
+  text-align: left;
+}
+
+.time {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 10%;
+  text-align: right;
+  float: right;
+}
+
+/* content-wrapper  ================================ */
+
+.sub-title {
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 60px 0;
+}
+
+.heading {
+  font-size: 20px;
+  border-bottom: 1px solid rgba(254, 86, 86, 0.8);
+  margin-bottom: 60px;
+}
+
+.content img {
+  height: 200px;
 }
 
 /*フッター  ================================ */
