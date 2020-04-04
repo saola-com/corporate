@@ -128,6 +128,8 @@ header {
 /*フッター  ================================ */
 
 footer {
+  position: absolute;
+  bottom: 0px;
   height: 400px;
   padding: 100px;
   background-image: url(https://saola-com.github.io/corporate/img/footer.png);
