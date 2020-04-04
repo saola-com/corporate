@@ -1,0 +1,42 @@
+/* スマホ向け================================== */
+
+@media (max-width: 750px) {
+
+    /* 共通設定 */
+
+    .body {
+      width: 100%;
+    }
+
+    h2, p {
+      color: rgba(45, 49, 51, 0.8)
+    }
+
+    .container {
+      width: 100%;
+    }
+
+    /* footer */
+
+    footer {
+      margin-bottom: 80px;
+      padding: none;
+      background-image: url(https://saola-com.github.io/corporate/img/footer_phone.png);
+    }
+
+    .footer-left {
+      padding-top: 150px;
+      float: none;
+      text-align: center;
+    }
+
+    .footer-left img {
+      width: 70%;
+      margin-bottom: 30px;
+    }
+
+    /* phone-menu-iconの表示 */
+
+    .to-top img {
+      height: 60px;
+    }
