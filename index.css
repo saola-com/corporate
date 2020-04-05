@@ -308,6 +308,15 @@ footer {
   text-align: left;
 }
 
+.exectives {
+  width: 100%;
+  margin: 60px 0;
+}
+
+.exectibes img {
+  width: 100%;
+}
+
 /* info-wrapper ================================ */
 
 .info-wrapper {
