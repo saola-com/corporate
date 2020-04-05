@@ -1,7 +1,7 @@
 /* reset ================================ */
 * {
   box-sizing: border-box;
-  font-family: 'Verdana', 'MS Sans Serif', 'Noto Sans Japanese', 'Robot','Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', 'sans-serif';
+  font-family: 'Noto Sans JP', 'Robot', 'MS Sans Serif', 'Verdana', 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic', 'sans-serif';
 }
 
 html {
